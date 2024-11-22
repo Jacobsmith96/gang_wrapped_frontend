@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gang_wrapped_frontend/static/css/main.41fdc922.css",
-    "main.js": "/gang_wrapped_frontend/static/js/main.a7d369a9.js",
+    "main.css": "/gang_wrapped_frontend/static/css/main.1fd21220.css",
+    "main.js": "/gang_wrapped_frontend/static/js/main.41f925db.js",
     "static/js/453.0d07f8e1.chunk.js": "/gang_wrapped_frontend/static/js/453.0d07f8e1.chunk.js",
     "index.html": "/gang_wrapped_frontend/index.html",
-    "main.41fdc922.css.map": "/gang_wrapped_frontend/static/css/main.41fdc922.css.map",
-    "main.a7d369a9.js.map": "/gang_wrapped_frontend/static/js/main.a7d369a9.js.map",
+    "main.1fd21220.css.map": "/gang_wrapped_frontend/static/css/main.1fd21220.css.map",
+    "main.41f925db.js.map": "/gang_wrapped_frontend/static/js/main.41f925db.js.map",
     "453.0d07f8e1.chunk.js.map": "/gang_wrapped_frontend/static/js/453.0d07f8e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41fdc922.css",
-    "static/js/main.a7d369a9.js"
+    "static/css/main.1fd21220.css",
+    "static/js/main.41f925db.js"
   ]
 }
