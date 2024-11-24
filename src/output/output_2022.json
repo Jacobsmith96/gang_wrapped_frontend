@@ -1,0 +1,2361 @@
+{
+    "message_count": {
+        "total_messages": 35131
+    },
+    "unique_users": {
+        "unique_users": 117
+    },
+    "users_most_messages": [
+        {
+            "author_id": "124802086872416256",
+            "count": 5002
+        },
+        {
+            "author_id": "82923739380973568",
+            "count": 3704
+        },
+        {
+            "author_id": "127624101018861568",
+            "count": 3107
+        },
+        {
+            "author_id": "210069005413777409",
+            "count": 2962
+        },
+        {
+            "author_id": "141374621151789057",
+            "count": 2576
+        },
+        {
+            "author_id": "323694035619545101",
+            "count": 2547
+        },
+        {
+            "author_id": "127623079785398272",
+            "count": 2324
+        },
+        {
+            "author_id": "135588986251902976",
+            "count": 2159
+        },
+        {
+            "author_id": "136998848127172610",
+            "count": 2023
+        },
+        {
+            "author_id": "184405311681986560",
+            "count": 959
+        },
+        {
+            "author_id": "106477946771873792",
+            "count": 848
+        },
+        {
+            "author_id": "161299654175096833",
+            "count": 799
+        },
+        {
+            "author_id": "190076484344479744",
+            "count": 655
+        },
+        {
+            "author_id": "182644163030810624",
+            "count": 615
+        },
+        {
+            "author_id": "128619755711102976",
+            "count": 550
+        },
+        {
+            "author_id": "82942893790072832",
+            "count": 535
+        },
+        {
+            "author_id": "145677104162406400",
+            "count": 407
+        },
+        {
+            "author_id": "127623693336707072",
+            "count": 395
+        },
+        {
+            "author_id": "346497660108144642",
+            "count": 295
+        },
+        {
+            "author_id": "605068912823894048",
+            "count": 277
+        },
+        {
+            "author_id": "349011749460246548",
+            "count": 270
+        },
+        {
+            "author_id": "147363456075563008",
+            "count": 222
+        },
+        {
+            "author_id": "126160256958070784",
+            "count": 200
+        },
+        {
+            "author_id": "448980009500278784",
+            "count": 195
+        },
+        {
+            "author_id": "172496271804727297",
+            "count": 162
+        },
+        {
+            "author_id": "197438934563684352",
+            "count": 154
+        },
+        {
+            "author_id": "119951127226613760",
+            "count": 149
+        },
+        {
+            "author_id": "343422592734199808",
+            "count": 122
+        },
+        {
+            "author_id": "141298053196808194",
+            "count": 84
+        },
+        {
+            "author_id": "456226577798135808",
+            "count": 78
+        },
+        {
+            "author_id": "946496588841377812",
+            "count": 72
+        },
+        {
+            "author_id": "211852290519334913",
+            "count": 53
+        },
+        {
+            "author_id": "227183964090138625",
+            "count": 52
+        },
+        {
+            "author_id": "162065510551257088",
+            "count": 49
+        },
+        {
+            "author_id": "745765164045041664",
+            "count": 48
+        },
+        {
+            "author_id": "740291044364517416",
+            "count": 42
+        },
+        {
+            "author_id": "523863432676638721",
+            "count": 40
+        },
+        {
+            "author_id": "157964600485216257",
+            "count": 37
+        },
+        {
+            "author_id": "595436612012343297",
+            "count": 33
+        },
+        {
+            "author_id": "222084068190191616",
+            "count": 25
+        },
+        {
+            "author_id": "1002069053373960252",
+            "count": 24
+        },
+        {
+            "author_id": "323972451195289600",
+            "count": 19
+        },
+        {
+            "author_id": "246467291129184257",
+            "count": 17
+        },
+        {
+            "author_id": "265410718587682817",
+            "count": 16
+        },
+        {
+            "author_id": "202985055948111872",
+            "count": 16
+        },
+        {
+            "author_id": "781343560623587349",
+            "count": 15
+        },
+        {
+            "author_id": "383100896768163852",
+            "count": 13
+        },
+        {
+            "author_id": "213476188037971968",
+            "count": 11
+        },
+        {
+            "author_id": "224287570278875136",
+            "count": 11
+        },
+        {
+            "author_id": "82322677343199232",
+            "count": 10
+        },
+        {
+            "author_id": "383835512714035200",
+            "count": 8
+        },
+        {
+            "author_id": "184512876390645760",
+            "count": 7
+        },
+        {
+            "author_id": "203326147327426560",
+            "count": 7
+        },
+        {
+            "author_id": "407027320902123530",
+            "count": 7
+        },
+        {
+            "author_id": "179304545996898304",
+            "count": 7
+        },
+        {
+            "author_id": "162293412697997312",
+            "count": 6
+        },
+        {
+            "author_id": "741341397507899516",
+            "count": 5
+        },
+        {
+            "author_id": "130944142158069760",
+            "count": 4
+        },
+        {
+            "author_id": "137229296711368705",
+            "count": 4
+        },
+        {
+            "author_id": "126476623091466241",
+            "count": 4
+        },
+        {
+            "author_id": "459562686003281922",
+            "count": 4
+        },
+        {
+            "author_id": "142439565557366784",
+            "count": 4
+        },
+        {
+            "author_id": "913215890122760212",
+            "count": 4
+        },
+        {
+            "author_id": "302869964283576320",
+            "count": 4
+        },
+        {
+            "author_id": "281969645236387840",
+            "count": 4
+        },
+        {
+            "author_id": "254216281576833024",
+            "count": 3
+        },
+        {
+            "author_id": "446038035600113685",
+            "count": 3
+        },
+        {
+            "author_id": "228951857190535168",
+            "count": 3
+        },
+        {
+            "author_id": "268144034453651459",
+            "count": 3
+        },
+        {
+            "author_id": "644082623588728833",
+            "count": 3
+        },
+        {
+            "author_id": "199613369500565505",
+            "count": 2
+        },
+        {
+            "author_id": "654866907542847491",
+            "count": 2
+        },
+        {
+            "author_id": "171147380345798657",
+            "count": 2
+        },
+        {
+            "author_id": "614158741662859304",
+            "count": 2
+        },
+        {
+            "author_id": "467490596001415178",
+            "count": 2
+        },
+        {
+            "author_id": "207718204221423617",
+            "count": 2
+        },
+        {
+            "author_id": "186940430355660801",
+            "count": 2
+        },
+        {
+            "author_id": "689711743433310248",
+            "count": 2
+        },
+        {
+            "author_id": "281866371778740225",
+            "count": 2
+        },
+        {
+            "author_id": "128280678650347520",
+            "count": 2
+        },
+        {
+            "author_id": "766088020481933323",
+            "count": 2
+        },
+        {
+            "author_id": "195385041264574464",
+            "count": 2
+        },
+        {
+            "author_id": "282583814335758350",
+            "count": 1
+        },
+        {
+            "author_id": "311006672644603904",
+            "count": 1
+        },
+        {
+            "author_id": "909499730835431434",
+            "count": 1
+        },
+        {
+            "author_id": "235078812436660226",
+            "count": 1
+        },
+        {
+            "author_id": "493456780567904258",
+            "count": 1
+        },
+        {
+            "author_id": "311626170518994945",
+            "count": 1
+        },
+        {
+            "author_id": "249332289941536768",
+            "count": 1
+        },
+        {
+            "author_id": "268603182593081345",
+            "count": 1
+        },
+        {
+            "author_id": "471748045562707969",
+            "count": 1
+        },
+        {
+            "author_id": "320436590050672641",
+            "count": 1
+        },
+        {
+            "author_id": "841078728436219904",
+            "count": 1
+        },
+        {
+            "author_id": "666450453109669904",
+            "count": 1
+        },
+        {
+            "author_id": "234064613245714432",
+            "count": 1
+        },
+        {
+            "author_id": "158377063793950721",
+            "count": 1
+        },
+        {
+            "author_id": "283024546179710987",
+            "count": 1
+        },
+        {
+            "author_id": "121013091147186177",
+            "count": 1
+        },
+        {
+            "author_id": "309961137611341825",
+            "count": 1
+        },
+        {
+            "author_id": "570729472643563535",
+            "count": 1
+        },
+        {
+            "author_id": "525760145159094305",
+            "count": 1
+        },
+        {
+            "author_id": "85913868865409024",
+            "count": 1
+        },
+        {
+            "author_id": "145632158038491137",
+            "count": 1
+        },
+        {
+            "author_id": "109098601765982208",
+            "count": 1
+        },
+        {
+            "author_id": "171712120315052032",
+            "count": 1
+        },
+        {
+            "author_id": "221081205586657281",
+            "count": 1
+        },
+        {
+            "author_id": "326449216589135883",
+            "count": 1
+        },
+        {
+            "author_id": "195382993433395201",
+            "count": 1
+        },
+        {
+            "author_id": "130748599733714944",
+            "count": 1
+        },
+        {
+            "author_id": "162378236964241408",
+            "count": 1
+        },
+        {
+            "author_id": "171128274515263488",
+            "count": 1
+        },
+        {
+            "author_id": "293472912407789568",
+            "count": 1
+        },
+        {
+            "author_id": "449751531596546068",
+            "count": 1
+        },
+        {
+            "author_id": "112238877195902976",
+            "count": 1
+        },
+        {
+            "author_id": "571136451010363412",
+            "count": 1
+        },
+        {
+            "author_id": "389210648090771466",
+            "count": 1
+        },
+        {
+            "author_id": "171041406943625218",
+            "count": 1
+        }
+    ],
+    "longest_message": [
+        {
+            "author_id": "127624101018861568",
+            "longest_message": "`TOTAL 28 Recipes 9 Triples 19 Doubles  Minimum Maps Required: 19 maps for recipes, 1 for the WOMBO COMBO Components: 48 basic drops  Fun Fact: Deadeye, Opulent, and Malediction are the only basic drops NOT used  Innocence-Touched [Currency x3]    (14 Recipes, 5 triples, 9 doubles)     Lunaris-Touched         Invulnerable             Sentinel             Juggernaut             Consecrator         Frost Strider             Frostweaver             Hasted         Empowering Minions             Necromancer                 Bombardier                 Overcharged             Executioner                 Frenzied                 Berserker             Gargantuan     Solaris-Touched         Invulnerable             Sentinel             Juggernaut             Consecrator         Magma Barrier             Incendiary             Bonebreaker         Empowering Minions             Necromancer                 Bombardier                 Overcharged             Executioner                 Frenzied                 Berserker             Gargantuan     Mirror Image         Echoist         Soul Conduit     Mana Siphoner         Consecrator         Dynamo Treant Horde (1 recipe, 1 triple)     Toxic     Sentinel     Steel Infused  Brine King-Touched (4 recipes, 1 triple, 3 doubles)     Ice Prison         Permafrost         Sentinel     Storm Strider         Stormweaver         Hasted     Heralding Minions         Dynamo         Arcane Buffer  Kitava-Touched (9 recipes, 2 triples, 7 doubles)     Tukohama-touched         Executioner             Frenzied             Berserker         Magma Barrier             Incendiary             Bonebreaker         Bonebreaker     Abberath-touched         Flame Strider             Flameweaver             Hasted         Rejuvenating             Gargantuan             Vampiric         Frenzied     Corrupter         Bloodletter         Chaosweaver     Corpse Detonator         Necromancer             Bombardier             Overcharged         Incendiary`"
+        }
+    ],
+    "users_most_jl_words": [
+        {
+            "author_id": "135588986251902976",
+            "count": 7
+        },
+        {
+            "author_id": "127624101018861568",
+            "count": 6
+        },
+        {
+            "author_id": "323694035619545101",
+            "count": 2
+        },
+        {
+            "author_id": "210069005413777409",
+            "count": 2
+        },
+        {
+            "author_id": "124802086872416256",
+            "count": 1
+        },
+        {
+            "author_id": "349011749460246548",
+            "count": 1
+        },
+        {
+            "author_id": "128619755711102976",
+            "count": 1
+        }
+    ],
+    "users_most_gang_mentions": [
+        {
+            "author_id": "136998848127172610",
+            "count": 12
+        },
+        {
+            "author_id": "82942893790072832",
+            "count": 9
+        },
+        {
+            "author_id": "346497660108144642",
+            "count": 6
+        },
+        {
+            "author_id": "127623079785398272",
+            "count": 6
+        },
+        {
+            "author_id": "135588986251902976",
+            "count": 5
+        },
+        {
+            "author_id": "141374621151789057",
+            "count": 5
+        },
+        {
+            "author_id": "323694035619545101",
+            "count": 5
+        },
+        {
+            "author_id": "82923739380973568",
+            "count": 3
+        },
+        {
+            "author_id": "127624101018861568",
+            "count": 3
+        },
+        {
+            "author_id": "349011749460246548",
+            "count": 3
+        },
+        {
+            "author_id": "197438934563684352",
+            "count": 3
+        },
+        {
+            "author_id": "128619755711102976",
+            "count": 3
+        },
+        {
+            "author_id": "161299654175096833",
+            "count": 2
+        },
+        {
+            "author_id": "162065510551257088",
+            "count": 2
+        },
+        {
+            "author_id": "210069005413777409",
+            "count": 2
+        },
+        {
+            "author_id": "268144034453651459",
+            "count": 2
+        },
+        {
+            "author_id": "124802086872416256",
+            "count": 1
+        },
+        {
+            "author_id": "106477946771873792",
+            "count": 1
+        },
+        {
+            "author_id": "145677104162406400",
+            "count": 1
+        },
+        {
+            "author_id": "343422592734199808",
+            "count": 1
+        },
+        {
+            "author_id": "184405311681986560",
+            "count": 1
+        },
+        {
+            "author_id": "605068912823894048",
+            "count": 1
+        }
+    ],
+    "most_used_emojis": [
+        {
+            "emoji_id": "<:thisdix:939207120367288370>",
+            "count": 38
+        },
+        {
+            "emoji_id": "<:ReiMamamia:938973118377103391>",
+            "count": 28
+        },
+        {
+            "emoji_id": "<:tripDub:926031831852265492>",
+            "count": 26
+        },
+        {
+            "emoji_id": "<:priestgoat:872386956301045841>",
+            "count": 19
+        },
+        {
+            "emoji_id": "<:Banime:815712826394935316>",
+            "count": 18
+        },
+        {
+            "emoji_id": "<:me_inside_time:928838974863200256>",
+            "count": 17
+        },
+        {
+            "emoji_id": "<:catdison:839753381454282803>",
+            "count": 16
+        },
+        {
+            "emoji_id": "<:ErikParty:815188403285000203>",
+            "count": 11
+        },
+        {
+            "emoji_id": "<:stevenSmile:991454395063599246>",
+            "count": 10
+        },
+        {
+            "emoji_id": "<:throatgoat:908165026509123625>",
+            "count": 9
+        },
+        {
+            "emoji_id": "<:JacobMa:889991398676381736>",
+            "count": 8
+        },
+        {
+            "emoji_id": "<:ray:938938720407679006>",
+            "count": 8
+        },
+        {
+            "emoji_id": "<:Yuki_no:938332738992349204>",
+            "count": 8
+        },
+        {
+            "emoji_id": "<:noat:806034425820348467>",
+            "count": 7
+        },
+        {
+            "emoji_id": "<:open_lip_door:917326582530572308>",
+            "count": 6
+        },
+        {
+            "emoji_id": "<:hellYeahBrother:1015069989826461696>",
+            "count": 6
+        },
+        {
+            "emoji_id": "<:jorbYawn:991456662797959208>",
+            "count": 5
+        },
+        {
+            "emoji_id": "<:NickDrip:687541666361769998>",
+            "count": 5
+        },
+        {
+            "emoji_id": "<:Asuka:810336752073965588>",
+            "count": 5
+        },
+        {
+            "emoji_id": "<:Sass_Cat:938332726191345714>",
+            "count": 5
+        },
+        {
+            "emoji_id": "<:jorbface:491019384362369037>",
+            "count": 4
+        },
+        {
+            "emoji_id": "<:ThisIs:807703259476131860>",
+            "count": 4
+        },
+        {
+            "emoji_id": "<:No_Way_To_Know_For_Sure:938317697198981210>",
+            "count": 4
+        },
+        {
+            "emoji_id": "<:booo:846520522976395334>",
+            "count": 3
+        },
+        {
+            "emoji_id": "<:WeedGuy:811762930453315605>",
+            "count": 3
+        },
+        {
+            "emoji_id": "<:Honk:635349892167893002>",
+            "count": 3
+        },
+        {
+            "emoji_id": "<:FeelsWeebMan:585757182381916162>",
+            "count": 3
+        },
+        {
+            "emoji_id": "<:dkPog:813645289813704704>",
+            "count": 3
+        },
+        {
+            "emoji_id": "<:wahh:575953242442432513>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:bigthumbhead:462324137176858651>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:clintHands:814621146229506069>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:yoat:806034425979600926>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:JordanEh:826909061848760370>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:ohshit1:941583742722535465>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:ohshit2:941583742756081694>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:ohshit3:941583742714146856>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:ohshit4:941583742760280084>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:mandy:773096709638848513>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:FeralPeekaboo:1008917241313640458>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:ngu:815712377311199273>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:VRant:807696123472379904>",
+            "count": 2
+        },
+        {
+            "emoji_id": "<:bigbottles:465008361893527553>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:Pog:818440472104009739>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:me:937526335151145031>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:PantsGrab:853950629234606093>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:chaos:951514139610738728>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:lipbite:878297903062462504>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:8jfancy:519352014602371092>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:sadge:797920997885739010>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:pog:718917896004173885>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:mitchellAfrica:635353868318015508>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:DumpsterFire:808478270151983124>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:bigrip:758549529527058443>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:usa:902756973546709033>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:Madge:833695975984857109>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:doatonaboat:925277164511825970>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:BountyRune:807003991346511872>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:mangoS:814620187398504480>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:stonerboi:937526335151145031>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:WeeWoo:815183151894364192>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:lich:809264343769415690>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:NickFace:581735511438262328>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:toothhead:462322344258568195>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:nakedDK:813649266584322059>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:illuminate:1054906222475755611>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:squidD:641105784096292894>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:blueface:773094962736791563>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:youfoundme:689283425495941285>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:IronManBTW:829810627328606278>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:Avaskit:1017437941909442600>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:ilikeike:464628174635139074>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:ViperToxic:712416088754749574>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:MonsterGrow1:813653060232544276>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:MonsterGrow2:813653060189814796>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:MonsterGrow3:813653060227301436>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:MonsterGrow4:813653059892805655>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:YesRant:807698351553380412>",
+            "count": 1
+        },
+        {
+            "emoji_id": "<:awakened_vig:565565089294319616>",
+            "count": 1
+        }
+    ],
+    "most_used_reactions": [
+        {
+            "reaction": "<:priestgoat:872386956301045841>",
+            "count": 586
+        },
+        {
+            "reaction": "<:thisdix:939207120367288370>",
+            "count": 204
+        },
+        {
+            "reaction": "<:ReiMamamia:938973118377103391>",
+            "count": 189
+        },
+        {
+            "reaction": "\ud83d\udc4d",
+            "count": 153
+        },
+        {
+            "reaction": "\ud83d\udcaf",
+            "count": 120
+        },
+        {
+            "reaction": "<:mandy:773096709638848513>",
+            "count": 97
+        },
+        {
+            "reaction": "<:stevenSmile:991454395063599246>",
+            "count": 89
+        },
+        {
+            "reaction": "\ud83c\udf77",
+            "count": 82
+        },
+        {
+            "reaction": "<:catdison:839753381454282803>",
+            "count": 80
+        },
+        {
+            "reaction": "\ud83d\udc9c",
+            "count": 71
+        },
+        {
+            "reaction": "<:nakedDK:813649266584322059>",
+            "count": 66
+        },
+        {
+            "reaction": "\u2764\ufe0f",
+            "count": 57
+        },
+        {
+            "reaction": "<:tripDub:926031831852265492>",
+            "count": 53
+        },
+        {
+            "reaction": "\ud83d\ude02",
+            "count": 48
+        },
+        {
+            "reaction": "<:throatgoat:908165026509123625>",
+            "count": 47
+        },
+        {
+            "reaction": "<:hellYeahBrother:1015069989826461696>",
+            "count": 46
+        },
+        {
+            "reaction": "<:JacobMa:889991398676381736>",
+            "count": 40
+        },
+        {
+            "reaction": "<:NickDrip:687541666361769998>",
+            "count": 38
+        },
+        {
+            "reaction": "\ud83d\ude06",
+            "count": 37
+        },
+        {
+            "reaction": "<:ngu:815712377311199273>",
+            "count": 36
+        },
+        {
+            "reaction": "<:bigthumbhead:462324137176858651>",
+            "count": 33
+        },
+        {
+            "reaction": "\ud83e\udde2",
+            "count": 33
+        },
+        {
+            "reaction": "<:noat:806034425820348467>",
+            "count": 31
+        },
+        {
+            "reaction": "<:Honk:635349892167893002>",
+            "count": 31
+        },
+        {
+            "reaction": "\ud83d\udd25",
+            "count": 30
+        },
+        {
+            "reaction": "<:open_lip_door:917326582530572308>",
+            "count": 30
+        },
+        {
+            "reaction": "\ud83d\udc4d\ud83c\udffc",
+            "count": 29
+        },
+        {
+            "reaction": "<:ThisIs:807703259476131860>",
+            "count": 27
+        },
+        {
+            "reaction": "\ud83c\udff9",
+            "count": 26
+        },
+        {
+            "reaction": "<:Asuka:810336752073965588>",
+            "count": 25
+        },
+        {
+            "reaction": "<:booo:846520522976395334>",
+            "count": 24
+        },
+        {
+            "reaction": "\ud83c\uddea",
+            "count": 24
+        },
+        {
+            "reaction": "<:me_inside_time:928838974863200256>",
+            "count": 23
+        },
+        {
+            "reaction": "\ud83c\udf46",
+            "count": 22
+        },
+        {
+            "reaction": "<:yoat:806034425979600926>",
+            "count": 22
+        },
+        {
+            "reaction": "\ud83c\uddf4",
+            "count": 21
+        },
+        {
+            "reaction": "\u2795",
+            "count": 21
+        },
+        {
+            "reaction": "<:jorbface:491019384362369037>",
+            "count": 20
+        },
+        {
+            "reaction": "\ud83d\ude3b",
+            "count": 20
+        },
+        {
+            "reaction": "<:ErikParty:815188403285000203>",
+            "count": 20
+        },
+        {
+            "reaction": "\ud83c\uddf1",
+            "count": 19
+        },
+        {
+            "reaction": "\ud83d\udcaa",
+            "count": 18
+        },
+        {
+            "reaction": "\ud83c\uddf3",
+            "count": 18
+        },
+        {
+            "reaction": "\ud83e\udd23",
+            "count": 17
+        },
+        {
+            "reaction": "\u26a1",
+            "count": 17
+        },
+        {
+            "reaction": "\ud83d\ude0d",
+            "count": 16
+        },
+        {
+            "reaction": "\ud83d\udc40",
+            "count": 16
+        },
+        {
+            "reaction": "<:TufF:811194079777128468>",
+            "count": 16
+        },
+        {
+            "reaction": "<:BountyRune:807003991346511872>",
+            "count": 16
+        },
+        {
+            "reaction": "<:8jfancy:519352014602371092>",
+            "count": 15
+        },
+        {
+            "reaction": "<:Banime:815712826394935316>",
+            "count": 15
+        },
+        {
+            "reaction": "\ud83d\udc4e",
+            "count": 15
+        },
+        {
+            "reaction": "\ud83c\uddfa",
+            "count": 14
+        },
+        {
+            "reaction": "\ud83e\udd76",
+            "count": 13
+        },
+        {
+            "reaction": "\ud83d\udca6",
+            "count": 13
+        },
+        {
+            "reaction": "<:POGGERS:489612619968151552>",
+            "count": 13
+        },
+        {
+            "reaction": "\ud83c\uddec",
+            "count": 13
+        },
+        {
+            "reaction": "<:PogPlant:789213411380166736>",
+            "count": 12
+        },
+        {
+            "reaction": "\ud83c\uddf7",
+            "count": 12
+        },
+        {
+            "reaction": "\ud83c\uddfc",
+            "count": 11
+        },
+        {
+            "reaction": "\ud83c\uddeb",
+            "count": 11
+        },
+        {
+            "reaction": "\ud83c\udf89",
+            "count": 10
+        },
+        {
+            "reaction": "<:PepeLaugh:805909583138127882>",
+            "count": 10
+        },
+        {
+            "reaction": "\ud83c\uddee",
+            "count": 10
+        },
+        {
+            "reaction": "<:squidD:641105784096292894>",
+            "count": 10
+        },
+        {
+            "reaction": "\ud83c\uddf8",
+            "count": 9
+        },
+        {
+            "reaction": "\ud83d\ude4f",
+            "count": 9
+        },
+        {
+            "reaction": "\ud83c\udde7",
+            "count": 9
+        },
+        {
+            "reaction": "<:CarlitoGogogo:726702053883248641>",
+            "count": 9
+        },
+        {
+            "reaction": "\\U0001f972",
+            "count": 9
+        },
+        {
+            "reaction": "<:Doubt:810335653803065374>",
+            "count": 9
+        },
+        {
+            "reaction": "<:TufU:811194079835717652>",
+            "count": 9
+        },
+        {
+            "reaction": "\ud83c\uddf2",
+            "count": 8
+        },
+        {
+            "reaction": "\ud83e\udd73",
+            "count": 8
+        },
+        {
+            "reaction": "\ud83c\udded",
+            "count": 8
+        },
+        {
+            "reaction": "\ud83c\uddf9",
+            "count": 8
+        },
+        {
+            "reaction": "\ud83c\udde9",
+            "count": 8
+        },
+        {
+            "reaction": "\ud83d\ude0f",
+            "count": 7
+        },
+        {
+            "reaction": "<:youfoundme:689283425495941285>",
+            "count": 7
+        },
+        {
+            "reaction": "<:sofunny:797217002351362069>",
+            "count": 7
+        },
+        {
+            "reaction": "<:WeedGuy:811762930453315605>",
+            "count": 7
+        },
+        {
+            "reaction": "<:muted:872386081394397204>",
+            "count": 7
+        },
+        {
+            "reaction": "\u2708\ufe0f",
+            "count": 7
+        },
+        {
+            "reaction": "<:ass:577047729281433630>",
+            "count": 7
+        },
+        {
+            "reaction": "<:ilikeike:464628174635139074>",
+            "count": 7
+        },
+        {
+            "reaction": "\ud83d\udc12",
+            "count": 7
+        },
+        {
+            "reaction": "\ud83c\uddff",
+            "count": 7
+        },
+        {
+            "reaction": "\ud83d\udc9a",
+            "count": 7
+        },
+        {
+            "reaction": "\u261d\ufe0f",
+            "count": 6
+        },
+        {
+            "reaction": "\ud83d\udcca",
+            "count": 6
+        },
+        {
+            "reaction": "\ud83d\udc31",
+            "count": 6
+        },
+        {
+            "reaction": "\ud83e\udd7a",
+            "count": 6
+        },
+        {
+            "reaction": "\ud83d\ude22",
+            "count": 6
+        },
+        {
+            "reaction": "<:thebutton:872385550336798730>",
+            "count": 6
+        },
+        {
+            "reaction": "\ud83c\uddfe",
+            "count": 6
+        },
+        {
+            "reaction": "\ud83d\ude2b",
+            "count": 6
+        },
+        {
+            "reaction": "<:ray:938938720407679006>",
+            "count": 6
+        },
+        {
+            "reaction": "\u2754",
+            "count": 6
+        },
+        {
+            "reaction": "\ud83d\ude15",
+            "count": 6
+        },
+        {
+            "reaction": "\ud83e\udd2f",
+            "count": 5
+        },
+        {
+            "reaction": "<:jorbRainbow:497637370200588288>",
+            "count": 5
+        },
+        {
+            "reaction": "\ud83c\uddf0",
+            "count": 5
+        },
+        {
+            "reaction": "\ud83d\ude33",
+            "count": 5
+        },
+        {
+            "reaction": "<a:RedAlert:824488718210695179>",
+            "count": 5
+        },
+        {
+            "reaction": "\ud83c\udf08",
+            "count": 5
+        },
+        {
+            "reaction": "\ud83d\ude29",
+            "count": 5
+        },
+        {
+            "reaction": "\ud83c\udf0a",
+            "count": 5
+        },
+        {
+            "reaction": "<:NoRant:807698350270054421>",
+            "count": 5
+        },
+        {
+            "reaction": "\ud83c\udfc0",
+            "count": 5
+        },
+        {
+            "reaction": "\ud83d\udd22",
+            "count": 5
+        },
+        {
+            "reaction": "\ud83c\udde8",
+            "count": 5
+        },
+        {
+            "reaction": "\ud83d\ude2d",
+            "count": 4
+        },
+        {
+            "reaction": "\ud83c\udf74",
+            "count": 4
+        },
+        {
+            "reaction": "<:Sass_Cat:938332726191345714>",
+            "count": 4
+        },
+        {
+            "reaction": "<:dkPog:813645289813704704>",
+            "count": 4
+        },
+        {
+            "reaction": "\ud83d\udc4f",
+            "count": 4
+        },
+        {
+            "reaction": "<:CarlitoCarlito:726702053791105145>",
+            "count": 4
+        },
+        {
+            "reaction": "\ud83d\udc41\ufe0f",
+            "count": 4
+        },
+        {
+            "reaction": "\ud83d\ude08",
+            "count": 4
+        },
+        {
+            "reaction": "<:CarlitoWhoseTheBoy:726702053757288455>",
+            "count": 4
+        },
+        {
+            "reaction": "\\U0001f978",
+            "count": 4
+        },
+        {
+            "reaction": "\u2753",
+            "count": 4
+        },
+        {
+            "reaction": "<:shmoke:807144206308868097>",
+            "count": 4
+        },
+        {
+            "reaction": "<:bloonsbackwards:915875514596597770>",
+            "count": 4
+        },
+        {
+            "reaction": "<:BlueMine:813643826483822602>",
+            "count": 4
+        },
+        {
+            "reaction": "\ud83d\ude31",
+            "count": 4
+        },
+        {
+            "reaction": "\ud83e\udd14",
+            "count": 4
+        },
+        {
+            "reaction": "\ud83d\udcb0",
+            "count": 4
+        },
+        {
+            "reaction": "<:nocap:576224703547441163>",
+            "count": 4
+        },
+        {
+            "reaction": "<:VespeneGas:806378459784806450>",
+            "count": 4
+        },
+        {
+            "reaction": "<:doat:806034425787580426>",
+            "count": 4
+        },
+        {
+            "reaction": "<:Fang:576238511649456148>",
+            "count": 4
+        },
+        {
+            "reaction": "\ud83c\udd70\ufe0f",
+            "count": 4
+        },
+        {
+            "reaction": "\ud83d\udc9b",
+            "count": 4
+        },
+        {
+            "reaction": "<:TufT:811194079869534208>",
+            "count": 4
+        },
+        {
+            "reaction": "#\ufe0f\u20e3",
+            "count": 4
+        },
+        {
+            "reaction": "<a:gz:763724639075041290>",
+            "count": 4
+        },
+        {
+            "reaction": "\ud83c\uddee\ud83c\uddf3",
+            "count": 4
+        },
+        {
+            "reaction": "\ud83d\ude0e",
+            "count": 3
+        },
+        {
+            "reaction": "<:bragLUL:808921240848039936>",
+            "count": 3
+        },
+        {
+            "reaction": "<:me:937526335151145031>",
+            "count": 3
+        },
+        {
+            "reaction": "<:8jretro:519365060188176385>",
+            "count": 3
+        },
+        {
+            "reaction": "<:KEKW:641769542715965441>",
+            "count": 3
+        },
+        {
+            "reaction": "<:jorbface:531686857952722944>",
+            "count": 3
+        },
+        {
+            "reaction": "\ud83d\udd95",
+            "count": 3
+        },
+        {
+            "reaction": "<:HELYEA:897848158577655808>",
+            "count": 3
+        },
+        {
+            "reaction": "<a:excuseme:854682944252411934>",
+            "count": 3
+        },
+        {
+            "reaction": "\ud83d\udc95",
+            "count": 3
+        },
+        {
+            "reaction": "\ud83d\ude1b",
+            "count": 3
+        },
+        {
+            "reaction": "2\ufe0f\u20e3",
+            "count": 3
+        },
+        {
+            "reaction": "\ud83d\ude05",
+            "count": 3
+        },
+        {
+            "reaction": "<:lich:809264343769415690>",
+            "count": 3
+        },
+        {
+            "reaction": "\ud83e\udd50",
+            "count": 3
+        },
+        {
+            "reaction": "<:yuh:1017153930460934185>",
+            "count": 3
+        },
+        {
+            "reaction": "\ud83c\udf4a",
+            "count": 3
+        },
+        {
+            "reaction": "\u2122\ufe0f",
+            "count": 3
+        },
+        {
+            "reaction": "<:blueface:773094962736791563>",
+            "count": 3
+        },
+        {
+            "reaction": "\ud83d\udc99",
+            "count": 3
+        },
+        {
+            "reaction": "\ud83d\ude24",
+            "count": 3
+        },
+        {
+            "reaction": "\ud83d\udc7b",
+            "count": 3
+        },
+        {
+            "reaction": "\ud83e\udd13",
+            "count": 3
+        },
+        {
+            "reaction": "\\U0001fad5",
+            "count": 3
+        },
+        {
+            "reaction": "\ud83d\ude41",
+            "count": 2
+        },
+        {
+            "reaction": "<:MonsterGrow3:813653060227301436>",
+            "count": 2
+        },
+        {
+            "reaction": "<:poolparty:399295372356354051>",
+            "count": 2
+        },
+        {
+            "reaction": "\u26f5",
+            "count": 2
+        },
+        {
+            "reaction": "<:doatonaboat:925277164511825970>",
+            "count": 2
+        },
+        {
+            "reaction": "<:Q_:477249678849867776>",
+            "count": 2
+        },
+        {
+            "reaction": "\u274c",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83d\udcc8",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83d\udc4c",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83d\udc10",
+            "count": 2
+        },
+        {
+            "reaction": "<:mitchellAfrica:635353868318015508>",
+            "count": 2
+        },
+        {
+            "reaction": "<:wahh:575953242442432513>",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83d\udc1e",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83d\ude14",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83e\udd20",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83d\udcaa\ud83c\udffd",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83e\udd2e",
+            "count": 2
+        },
+        {
+            "reaction": "<:thistbh:832114389473427496>",
+            "count": 2
+        },
+        {
+            "reaction": "\u26bd",
+            "count": 2
+        },
+        {
+            "reaction": "<:awakened_vig:565565089294319616>",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83e\udddf",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83c\uddfd",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83d\ude0c",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83e\udd17",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83d\ude0b",
+            "count": 2
+        },
+        {
+            "reaction": "<:jorbYawn:991456662797959208>",
+            "count": 2
+        },
+        {
+            "reaction": "\\U0001fae1",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83e\udd2a",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83e\uddd9\\U200d\u2642\ufe0f",
+            "count": 2
+        },
+        {
+            "reaction": "1\ufe0f\u20e3",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83c\uddf5",
+            "count": 2
+        },
+        {
+            "reaction": "\u203c\ufe0f",
+            "count": 2
+        },
+        {
+            "reaction": "<:Yuki_no:938332738992349204>",
+            "count": 2
+        },
+        {
+            "reaction": "<a:CR_Hehe:711454844719726662>",
+            "count": 2
+        },
+        {
+            "reaction": "<:VRant:807696123472379904>",
+            "count": 2
+        },
+        {
+            "reaction": "<:OMEGALUL:711428918321872928>",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83d\ude43",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83d\udc52",
+            "count": 2
+        },
+        {
+            "reaction": "\ud83e\udd70",
+            "count": 2
+        },
+        {
+            "reaction": "\u2665\ufe0f",
+            "count": 2
+        },
+        {
+            "reaction": "<:MonsterGrow4:813653059892805655>",
+            "count": 1
+        },
+        {
+            "reaction": "\u270c\ud83c\udffc",
+            "count": 1
+        },
+        {
+            "reaction": "\\U0001faa2",
+            "count": 1
+        },
+        {
+            "reaction": "<:KEKWAIT:679392757319729152>",
+            "count": 1
+        },
+        {
+            "reaction": "<:wow:582426986861953051>",
+            "count": 1
+        },
+        {
+            "reaction": "<:yuh:954267716611620936>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udcb9",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\ude00",
+            "count": 1
+        },
+        {
+            "reaction": "<:sadge:797920997885739010>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udc98",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83e\udd48",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83e\udd22",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83e\udd69",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\ude42",
+            "count": 1
+        },
+        {
+            "reaction": "<:reverse:937809535383515196>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83c\udf34",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83c\udf06",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83c\udf5a",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\ude99",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udc4c\ud83c\udffe",
+            "count": 1
+        },
+        {
+            "reaction": "\u26be",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83c\uddfa\ud83c\uddf8",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udca9",
+            "count": 1
+        },
+        {
+            "reaction": "<:No_Way_To_Know_For_Sure:938317697198981210>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83e\udd28",
+            "count": 1
+        },
+        {
+            "reaction": "\u2b06\ufe0f",
+            "count": 1
+        },
+        {
+            "reaction": "\u2b07\ufe0f",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udd01",
+            "count": 1
+        },
+        {
+            "reaction": "\u2757",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\ude01",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83c\udf51",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\ude20",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udc80",
+            "count": 1
+        },
+        {
+            "reaction": "<a:axe_laugh:946169958491127809>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83e\udd21",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\ude2c",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udc4e\ud83c\udfff",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udc4a\ud83c\udffb",
+            "count": 1
+        },
+        {
+            "reaction": "<:ChigiriThis:1039448547210317874>",
+            "count": 1
+        },
+        {
+            "reaction": "<a:NanaWorry:602827140492296214>",
+            "count": 1
+        },
+        {
+            "reaction": "<:ElNido:717042822649217036>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udc00",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83c\udf33",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83e\udd2b",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83c\udde7\ud83c\uddf7",
+            "count": 1
+        },
+        {
+            "reaction": "<:thonking:629898320294445061>",
+            "count": 1
+        },
+        {
+            "reaction": "<:supaman:1002439216246030366>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83e\udd0e",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83e\udde1",
+            "count": 1
+        },
+        {
+            "reaction": "\u2764\ufe0f\\U200d\ud83e\ude79",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udda4",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udc9d",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83e\udd0d",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udc0d",
+            "count": 1
+        },
+        {
+            "reaction": "<:spidermanLeft:846529624925012008>",
+            "count": 1
+        },
+        {
+            "reaction": "<:spidermanRight:846529624892506112>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83e\udd85",
+            "count": 1
+        },
+        {
+            "reaction": "<:toothhead:462322344258568195>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udc4e\ud83c\udffb",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\ude2e",
+            "count": 1
+        },
+        {
+            "reaction": "<:rainbowDog:1036756863187964004>",
+            "count": 1
+        },
+        {
+            "reaction": "<:clintFug:814621153862877235>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udc97",
+            "count": 1
+        },
+        {
+            "reaction": "\u263a\ufe0f",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\ude47\\U200d\u2642\ufe0f",
+            "count": 1
+        },
+        {
+            "reaction": "<:risePog:771963287726063636>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udd78\ufe0f",
+            "count": 1
+        },
+        {
+            "reaction": "<:WeeWoo:815183151894364192>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udfe9",
+            "count": 1
+        },
+        {
+            "reaction": "\u2b1b",
+            "count": 1
+        },
+        {
+            "reaction": "<:YesRant:807698351553380412>",
+            "count": 1
+        },
+        {
+            "reaction": "<:KEKhands:826967868721070130>",
+            "count": 1
+        },
+        {
+            "reaction": "<:Sadge:787406782950801449>",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83d\udc4d\ud83c\udfff",
+            "count": 1
+        },
+        {
+            "reaction": "<:deadge:932850144775385129>",
+            "count": 1
+        },
+        {
+            "reaction": "\u26f3",
+            "count": 1
+        },
+        {
+            "reaction": "\ud83c\udfbe",
+            "count": 1
+        }
+    ],
+    "most_active_channels": [
+        {
+            "channel_id": "807872046402895912",
+            "count": 12001
+        },
+        {
+            "channel_id": "127888818929008640",
+            "count": 5168
+        },
+        {
+            "channel_id": "741826404533927947",
+            "count": 4481
+        },
+        {
+            "channel_id": "441737169900404737",
+            "count": 2683
+        },
+        {
+            "channel_id": "874812778735599626",
+            "count": 1984
+        },
+        {
+            "channel_id": "550780203430051841",
+            "count": 1760
+        },
+        {
+            "channel_id": "149603119876145152",
+            "count": 1657
+        },
+        {
+            "channel_id": "830979708643442718",
+            "count": 1586
+        },
+        {
+            "channel_id": "767308618265526292",
+            "count": 1475
+        },
+        {
+            "channel_id": "804488161513701397",
+            "count": 573
+        },
+        {
+            "channel_id": "888091804333928498",
+            "count": 545
+        },
+        {
+            "channel_id": "137989464805867520",
+            "count": 460
+        },
+        {
+            "channel_id": "996469613841875085",
+            "count": 207
+        },
+        {
+            "channel_id": "823073952355581982",
+            "count": 146
+        },
+        {
+            "channel_id": "595436457124954118",
+            "count": 131
+        },
+        {
+            "channel_id": "636742873630375955",
+            "count": 119
+        },
+        {
+            "channel_id": "767857937636524091",
+            "count": 93
+        },
+        {
+            "channel_id": "650603438236893211",
+            "count": 36
+        },
+        {
+            "channel_id": "253741330142986241",
+            "count": 12
+        },
+        {
+            "channel_id": "996939703163035658",
+            "count": 5
+        },
+        {
+            "channel_id": "316398518933782531",
+            "count": 4
+        },
+        {
+            "channel_id": "127891653380800512",
+            "count": 3
+        },
+        {
+            "channel_id": "801746938067681312",
+            "count": 2
+        }
+    ],
+    "users_most_trendsetters": [],
+    "users_most_secret_word_guesses": [],
+    "users_most_secret_word_wins": [],
+    "users_most_depressed": [
+        {
+            "author_id": "349011749460246548",
+            "score": 0.0038874074074074076
+        },
+        {
+            "author_id": "124802086872416256",
+            "score": 0.02353650539784082
+        },
+        {
+            "author_id": "190076484344479744",
+            "score": 0.031153893129771012
+        },
+        {
+            "author_id": "135588986251902976",
+            "score": 0.03831824918943946
+        },
+        {
+            "author_id": "145677104162406400",
+            "score": 0.03932997542997544
+        },
+        {
+            "author_id": "82942893790072832",
+            "score": 0.03950598130841122
+        },
+        {
+            "author_id": "346497660108144642",
+            "score": 0.045732881355932176
+        },
+        {
+            "author_id": "127624101018861568",
+            "score": 0.04831750885098166
+        },
+        {
+            "author_id": "161299654175096833",
+            "score": 0.04900775969962454
+        },
+        {
+            "author_id": "106477946771873792",
+            "score": 0.05623455188679251
+        },
+        {
+            "author_id": "343422592734199808",
+            "score": 0.05783770491803279
+        },
+        {
+            "author_id": "605068912823894048",
+            "score": 0.06264296028880863
+        },
+        {
+            "author_id": "141374621151789057",
+            "score": 0.06437352484472053
+        },
+        {
+            "author_id": "127623693336707072",
+            "score": 0.06535417721518984
+        },
+        {
+            "author_id": "147363456075563008",
+            "score": 0.06829639639639641
+        },
+        {
+            "author_id": "210069005413777409",
+            "score": 0.07039128966914239
+        },
+        {
+            "author_id": "82923739380973568",
+            "score": 0.0749806425485962
+        },
+        {
+            "author_id": "182644163030810624",
+            "score": 0.07591333333333333
+        },
+        {
+            "author_id": "128619755711102976",
+            "score": 0.07829854545454551
+        },
+        {
+            "author_id": "127623079785398272",
+            "score": 0.07830524956970739
+        },
+        {
+            "author_id": "172496271804727297",
+            "score": 0.08585555555555555
+        },
+        {
+            "author_id": "136998848127172610",
+            "score": 0.09169594661393944
+        },
+        {
+            "author_id": "119951127226613760",
+            "score": 0.09276979865771812
+        },
+        {
+            "author_id": "448980009500278784",
+            "score": 0.0994297435897436
+        },
+        {
+            "author_id": "126160256958070784",
+            "score": 0.09975749999999996
+        },
+        {
+            "author_id": "323694035619545101",
+            "score": 0.10069815469179332
+        },
+        {
+            "author_id": "184405311681986560",
+            "score": 0.10433232533889467
+        },
+        {
+            "author_id": "197438934563684352",
+            "score": 0.12273181818181819
+        }
+    ],
+    "users_happiest": [
+        {
+            "author_id": "197438934563684352",
+            "score": 0.12273181818181819
+        },
+        {
+            "author_id": "184405311681986560",
+            "score": 0.10433232533889467
+        },
+        {
+            "author_id": "323694035619545101",
+            "score": 0.10069815469179332
+        },
+        {
+            "author_id": "126160256958070784",
+            "score": 0.09975749999999996
+        },
+        {
+            "author_id": "448980009500278784",
+            "score": 0.0994297435897436
+        },
+        {
+            "author_id": "119951127226613760",
+            "score": 0.09276979865771812
+        },
+        {
+            "author_id": "136998848127172610",
+            "score": 0.09169594661393944
+        },
+        {
+            "author_id": "172496271804727297",
+            "score": 0.08585555555555555
+        },
+        {
+            "author_id": "127623079785398272",
+            "score": 0.07830524956970739
+        },
+        {
+            "author_id": "128619755711102976",
+            "score": 0.07829854545454551
+        },
+        {
+            "author_id": "182644163030810624",
+            "score": 0.07591333333333333
+        },
+        {
+            "author_id": "82923739380973568",
+            "score": 0.0749806425485962
+        },
+        {
+            "author_id": "210069005413777409",
+            "score": 0.07039128966914239
+        },
+        {
+            "author_id": "147363456075563008",
+            "score": 0.06829639639639641
+        },
+        {
+            "author_id": "127623693336707072",
+            "score": 0.06535417721518984
+        },
+        {
+            "author_id": "141374621151789057",
+            "score": 0.06437352484472053
+        },
+        {
+            "author_id": "605068912823894048",
+            "score": 0.06264296028880863
+        },
+        {
+            "author_id": "343422592734199808",
+            "score": 0.05783770491803279
+        },
+        {
+            "author_id": "106477946771873792",
+            "score": 0.05623455188679251
+        },
+        {
+            "author_id": "161299654175096833",
+            "score": 0.04900775969962454
+        },
+        {
+            "author_id": "127624101018861568",
+            "score": 0.04831750885098166
+        },
+        {
+            "author_id": "346497660108144642",
+            "score": 0.045732881355932176
+        },
+        {
+            "author_id": "82942893790072832",
+            "score": 0.03950598130841122
+        },
+        {
+            "author_id": "145677104162406400",
+            "score": 0.03932997542997544
+        },
+        {
+            "author_id": "135588986251902976",
+            "score": 0.03831824918943946
+        },
+        {
+            "author_id": "190076484344479744",
+            "score": 0.031153893129771012
+        },
+        {
+            "author_id": "124802086872416256",
+            "score": 0.02353650539784082
+        },
+        {
+            "author_id": "349011749460246548",
+            "score": 0.0038874074074074076
+        }
+    ]
+}

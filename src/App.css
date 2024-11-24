@@ -60,3 +60,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(167, 139, 250, 0.8);
 }
+
+.large-bold {
+  font-size: 1.5rem;  /* or 24px */
+}
