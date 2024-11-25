@@ -1291,7 +1291,7 @@ const App = () => {
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl transition-all duration-500">
             <div
               className="flex gap-x-4"
-              style={{ justifyContent: "space-between" }}
+              style={{ justifyContent: "space-between", flexWrap: "nowrap" }}
             >
               <button
                 onClick={prevSection}
@@ -1299,29 +1299,30 @@ const App = () => {
               >
                 <ChevronLeft size={24} />
               </button>
-              {sections.map((section, index) => (
-                <div key={index}>
-                  {index === currentSection ? (
-                    <div
-                      className="bg-white/40 bg-opacity-50 w-full h-2 rounded-lg"
-                      style={{
-                        height: "4px",
-                        width: "20px",
-                        marginTop: "20px",
-                      }}
-                    ></div>
-                  ) : (
-                    <div
-                      className="bg-white/10 bg-opacity-50 w-full h-2 rounded-lg"
-                      style={{
-                        height: "4px",
-                        width: "20px",
-                        marginTop: "20px",
-                      }}
-                    ></div>
-                  )}
-                </div>
-              ))}
+              <div
+                className="flex"
+                style={{
+                  flexGrow: 1,
+                  flexDirection: "row",
+                  justifyContent: "space-between",
+                }}
+              >
+                {sections.map((section, index) => (
+                  <div
+                    key={index}
+                    className={
+                      "bg-opacity-50 h-2 rounded-lg flex-1 " +
+                      (index === currentSection ? "bg-white/40" : "bg-white/10")
+                    }
+                    style={{
+                      height: "4px",
+                      width: "100%",
+                      marginTop: "20px",
+                      margin: "20px 2px 0px 2px",
+                    }}
+                  ></div>
+                ))}
+              </div>
               <button
                 onClick={nextSection}
                 className=" p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
