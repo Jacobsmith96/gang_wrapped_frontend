@@ -546,11 +546,11 @@ function EmojiDisplay(props) {
       return {
         name: "Undefined",
         count: item.count,
-        emoji_url: emoji.default_url,
+        emoji_url: default_url,
         id: item.emoji_id,
       };
     })
-    .filter((item) => item !== undefined);
+    .filter((item) => item.name !== "Undefined");
 
   const [currentPage, setCurrentPage] = useState(1);
 
