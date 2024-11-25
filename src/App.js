@@ -548,6 +548,7 @@ function EmojiDisplay(props) {
         count: item.count,
         emoji_url: emoji.default_url,
         id: item.emoji_id,
+      };
     })
     .filter((item) => item !== undefined);
 
