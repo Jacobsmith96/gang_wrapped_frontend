@@ -1,17 +1,6 @@
 import React, { useState } from "react";
-import { ChevronLeft, ChevronRight, ChevronDown } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import "./App.css";
-
-let data_2016 = require("./output/output_2016.json");
-let data_2017 = require("./output/output_2017.json");
-let data_2018 = require("./output/output_2018.json");
-let data_2019 = require("./output/output_2019.json");
-let data_2020 = require("./output/output_2020.json");
-let data_2021 = require("./output/output_2021.json");
-let data_2022 = require("./output/output_2022.json");
-let data_2023 = require("./output/output_2023.json");
-let data_2024 = require("./output/output_2024.json");
-let data_all = require("./output/output_all.json");
 
 const default_url = "https://cdn.discordapp.com/embed/avatars/0.png";
 
@@ -29,6 +18,11 @@ function getEmojis() {
   return emojis;
 }
 
+function getChannels() {
+  let channels = require("./output/channels.json");
+  return channels;
+}
+
 function SectionComponent(props) {
   let title = props.title;
   let index = props.index;
@@ -36,6 +30,7 @@ function SectionComponent(props) {
   let year = props.year;
   let users = props.users;
   let emojis = props.emojis;
+  let channels = props.channels;
 
   switch (index) {
     case 0:
@@ -59,7 +54,11 @@ function SectionComponent(props) {
       return (
         <div>
           <h2 className="text-3xl font-bold mb-8 text-center">{title}</h2>
-          <LongestMessageDislapy year={year} data={data} users={users} />
+          <h3 className="text-xl font-semibold mb-4 text-center">
+            Channels that popped off (As many of us know, Jon has never popped
+            off in his goddamn life)
+          </h3>
+          <ChannelsDisplay year={year} data={data} channels={channels} />
         </div>
       );
     case 3:
@@ -67,9 +66,9 @@ function SectionComponent(props) {
         <div>
           <h2 className="text-3xl font-bold mb-8 text-center">{title}</h2>
           <h3 className="text-xl font-semibold mb-4 text-center">
-            These users had the most Jlessages...
+            Most addicted to playing word games as a form of procrastination
           </h3>
-          <JlessageDisplay year={year} data={data} users={users} />
+          <SecretWordGuessesDisplay year={year} data={data} users={users} />
         </div>
       );
     case 4:
@@ -77,9 +76,9 @@ function SectionComponent(props) {
         <div>
           <h2 className="text-3xl font-bold mb-8 text-center">{title}</h2>
           <h3 className="text-xl font-semibold mb-4 text-center">
-            Shouting out gang is a lifestyle for these users...
+            Probably spammed /hint the most
           </h3>
-          <GangDisplay year={year} data={data} users={users} />
+          <SecretWordWinsDisplay year={year} data={data} users={users} />
         </div>
       );
     case 5:
@@ -87,9 +86,9 @@ function SectionComponent(props) {
         <div>
           <h2 className="text-3xl font-bold mb-8 text-center">{title}</h2>
           <h3 className="text-xl font-semibold mb-4 text-center">
-            Not all Emoji are created equal...
+            Some users just know how to set a trend...
           </h3>
-          <EmojiDisplay year={year} data={data} emojis={emojis} />
+          <TrendsettersDisplay year={year} data={data} users={users} />
         </div>
       );
     case 6:
@@ -107,9 +106,36 @@ function SectionComponent(props) {
         <div>
           <h2 className="text-3xl font-bold mb-8 text-center">{title}</h2>
           <h3 className="text-xl font-semibold mb-4 text-center">
-            Channels that popped off (Jon wouldn't know anything about that)...
+            Not all Emoji are created equal...
           </h3>
-          <PopularChannelsDisplay year={year} data={data} emojis={emojis} />
+          <EmojiDisplay year={year} data={data} emojis={emojis} />
+        </div>
+      );
+    case 8:
+      return (
+        <div>
+          <h2 className="text-3xl font-bold mb-8 text-center">{title}</h2>
+          <LongestMessageDislapy year={year} data={data} users={users} />
+        </div>
+      );
+    case 9:
+      return (
+        <div>
+          <h2 className="text-3xl font-bold mb-8 text-center">{title}</h2>
+          <h3 className="text-xl font-semibold mb-4 text-center">
+            These users had the most Jlessages...
+          </h3>
+          <JlessageDisplay year={year} data={data} users={users} />
+        </div>
+      );
+    case 10:
+      return (
+        <div>
+          <h2 className="text-3xl font-bold mb-8 text-center">{title}</h2>
+          <h3 className="text-xl font-semibold mb-4 text-center">
+            Shouting out gang is a lifestyle for these users...
+          </h3>
+          <GangDisplay year={year} data={data} users={users} />
         </div>
       );
     default:
@@ -517,6 +543,11 @@ function EmojiDisplay(props) {
           id: item.emoji_id,
         };
       }
+      return {
+        name: "Undefined",
+        count: item.count,
+        emoji_url: emoji.default_url,
+        id: item.emoji_id,
     })
     .filter((item) => item !== undefined);
 
@@ -538,7 +569,9 @@ function EmojiDisplay(props) {
           <div className="flex items-center gap-2 p-4 bg-white/5 rounded-lg transform hover:scale-105 transition-all duration-300 mb-4">
             <div className="w-10 h-10 rounded-full overflow-hidden">
               <img
-                src={item[1].emoji_url}
+                src={
+                  process.env.PUBLIC_URL + "/emojis/" + item[1].name + ".png"
+                }
                 alt={item[1].emoji_name}
                 className="w-full h-full object-cover"
               />
@@ -728,15 +761,455 @@ function ReactionsDisplay(props) {
   );
 }
 
+function ChannelsDisplay(props) {
+  let mostActiveChannels = props.data.most_active_channels;
+  let channels = props.channels;
+
+  let channels_with_counts = mostActiveChannels
+    .map((item) => {
+      let channel = channels.find((channel) => channel.id === item.channel_id);
+      if (channel) {
+        return {
+          id: item.id,
+          name: channel.name,
+          count: item.count,
+        };
+      } else {
+        return {
+          id: item.id,
+          name: "Undefined",
+          count: item.count,
+        };
+      }
+    })
+    .filter((item) => item !== undefined && item.name !== "Undefined");
+
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const [channelsPerPage] = useState(10);
+
+  const indexOfLastUser = currentPage * channelsPerPage;
+  const indexOfFirstUser = indexOfLastUser - channelsPerPage;
+
+  const currentchannels = Object.entries(channels_with_counts)
+    .sort(([, countA], [, countB]) => countB - countA)
+    .slice(indexOfFirstUser, indexOfLastUser);
+
+  return (
+    <div>
+      {currentchannels.map((item, index) => (
+        <React.Fragment key={index}>
+          <div className="flex items-center gap-2 p-4 bg-white/5 rounded-lg transform hover:scale-105 transition-all duration-300 mb-4">
+            <div className="flex-1">
+              <h3 className="font-semibold text-lg"># {item[1].name}</h3>
+            </div>
+            <div
+              className="text-2xl font-bold text-purple-300 flex justify-center"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                textAlign: "center",
+              }}
+            >
+              <div>{item[1].count}</div>
+              <div
+                style={{
+                  fontSize: "16px",
+                }}
+              >
+                messages
+              </div>
+            </div>
+          </div>
+        </React.Fragment>
+      ))}
+      <div className="flex justify-center mt-8">
+        <button
+          onClick={() => {
+            if (currentPage > 1) setCurrentPage(currentPage - 1);
+          }}
+          className=" p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+          style={{ height: "fit-content" }}
+        >
+          <ChevronLeft />
+        </button>
+        <div className="">
+          {[
+            ...Array(
+              Math.ceil(channels_with_counts.length / channelsPerPage)
+            ).keys(),
+          ].map((pageNumber) => (
+            <button
+              key={pageNumber + 1}
+              onClick={() => setCurrentPage(pageNumber + 1)}
+              className={`${
+                currentPage === pageNumber + 1
+                  ? "bg-white/10"
+                  : "bg-transparent"
+              } p-2 rounded-full hover:bg-white/20 transition-all`}
+            >
+              {pageNumber + 1}
+            </button>
+          ))}
+        </div>
+        <button
+          onClick={() => setCurrentPage(currentPage + 1)}
+          className=" p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+          style={{ height: "fit-content" }}
+        >
+          <ChevronRight />
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function TrendsettersDisplay(props) {
+  let trendsetters = props.data.users_most_trendsetters;
+  let users = props.users;
+
+  let trendsetters_users = trendsetters.map((item) => {
+    const user = users.find(
+      (user) => user.name.toLowerCase() === item.author_id.toLowerCase()
+    );
+    if (!user) {
+      return {
+        global_name: "Unknown",
+        count: item.count,
+        avatar_url: default_url, // Add a default avatar URL if not found
+        id: item.author_id,
+      };
+    }
+    return {
+      global_name: user.global_name ? user.global_name : user.name,
+      count: item.count,
+      avatar_url: user.avatar_url, // Add a default avatar URL if not found
+      id: item.author_id,
+    };
+  });
+
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const [itemsPerPage] = useState(10);
+
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+
+  const currentItems = Object.entries(trendsetters_users)
+    .sort(([, countA], [, countB]) => countB - countA)
+    .slice(indexOfFirstItem, indexOfLastItem);
+
+  return (
+    <div>
+      {currentItems.map((item, index) => (
+        <React.Fragment key={index}>
+          <div className="flex items-center gap-2 p-4 bg-white/5 rounded-lg transform hover:scale-105 transition-all duration-300 mb-4">
+            <div className="w-10 h-10 rounded-full overflow-hidden">
+              <img
+                src={item[1].avatar_url}
+                alt={item[1].global_name}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="flex-1">
+              <h3 className="font-semibold text-lg">{item[1].global_name}</h3>
+            </div>
+            <div
+              className="text-2xl font-bold text-purple-300 flex justify-center"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                textAlign: "center",
+              }}
+            >
+              <div>{item[1].count}</div>
+              <div
+                style={{
+                  fontSize: "16px",
+                }}
+              >
+                trendsetters
+              </div>
+            </div>
+          </div>
+        </React.Fragment>
+      ))}
+      <div className="flex justify-center mt-8">
+        <button
+          onClick={() => {
+            if (currentPage > 1) setCurrentPage(currentPage - 1);
+          }}
+          className=" p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+          style={{ height: "fit-content" }}
+        >
+          <ChevronLeft />
+        </button>
+        <div className="">
+          {[...Array(Math.ceil(trendsetters.length / itemsPerPage)).keys()].map(
+            (pageNumber) => (
+              <button
+                key={pageNumber + 1}
+                onClick={() => setCurrentPage(pageNumber + 1)}
+                className={`${
+                  currentPage === pageNumber + 1
+                    ? "bg-white/10"
+                    : "bg-transparent"
+                } p-2 rounded-full hover:bg-white/20 transition-all`}
+              >
+                {pageNumber + 1}
+              </button>
+            )
+          )}
+        </div>
+        <button
+          onClick={() => setCurrentPage(currentPage + 1)}
+          className=" p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+          style={{ height: "fit-content" }}
+        >
+          <ChevronRight />
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function SecretWordGuessesDisplay(props) {
+  let users_most_secret_word_guesses =
+    props.data.users_most_secret_word_guesses;
+  let users = props.users;
+
+  let users_with_counts = users_most_secret_word_guesses
+    .map((item) => {
+      const user = users.find((user) => user.id === item.author_id);
+      if (!user) {
+        return {
+          global_name: "Unknown",
+          count: item.count,
+          avatar_url: default_url, // Add a default avatar URL if not found
+          id: item.author_id,
+        };
+      }
+      return {
+        global_name: user.global_name ? user.global_name : user.name,
+        count: item.count,
+        avatar_url: user.avatar_url, // Add a default avatar URL if not found
+        id: item.author_id,
+      };
+    })
+    .filter((item) => item.id !== "1078085711242215424");
+
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const [itemsPerPage] = useState(10);
+
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+
+  const currentItems = Object.entries(users_with_counts)
+    .sort(([, countA], [, countB]) => countB - countA)
+    .slice(indexOfFirstItem, indexOfLastItem);
+
+  const totalItems = users_with_counts.length;
+  return (
+    <div>
+      {currentItems.map((item, index) => (
+        <React.Fragment key={index}>
+          <div className="flex items-center gap-2 p-4 bg-white/5 rounded-lg transform hover:scale-105 transition-all duration-300 mb-4">
+            <div className="w-10 h-10 rounded-full overflow-hidden">
+              <img
+                src={item[1].avatar_url}
+                alt={item[1].global_name}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="flex-1">
+              <h3 className="font-semibold text-lg">{item[1].global_name}</h3>
+            </div>
+            <div
+              className="text-2xl font-bold text-purple-300 flex justify-center"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                textAlign: "center",
+              }}
+            >
+              <div>{item[1].count}</div>
+              <div
+                style={{
+                  fontSize: "16px",
+                }}
+              >
+                guesses
+              </div>
+            </div>
+          </div>
+        </React.Fragment>
+      ))}
+      <div className="flex justify-center mt-8">
+        <button
+          onClick={() => {
+            if (currentPage > 1) setCurrentPage(currentPage - 1);
+          }}
+          className=" p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+          style={{ height: "fit-content" }}
+        >
+          <ChevronLeft />
+        </button>
+        <div className="">
+          {[...Array(Math.ceil(totalItems / itemsPerPage)).keys()].map(
+            (pageNumber) => (
+              <button
+                key={pageNumber + 1}
+                onClick={() => setCurrentPage(pageNumber + 1)}
+                className={`${
+                  currentPage === pageNumber + 1
+                    ? "bg-white/10"
+                    : "bg-transparent"
+                } p-2 rounded-full hover:bg-white/20 transition-all`}
+              >
+                {pageNumber + 1}
+              </button>
+            )
+          )}
+        </div>
+        <button
+          onClick={() => setCurrentPage(currentPage + 1)}
+          className=" p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+          style={{ height: "fit-content" }}
+        >
+          <ChevronRight />
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function SecretWordWinsDisplay(props) {
+  let users_most_secret_word_wins = props.data.users_most_secret_word_wins;
+  let users = props.users;
+
+  let users_with_counts = users_most_secret_word_wins
+    .map((item) => {
+      const user = users.find((user) => user.id === item.author_id);
+      if (!user) {
+        return {
+          global_name: "Unknown",
+          count: item.count,
+          avatar_url: default_url, // Add a default avatar URL if not found
+          id: item.author_id,
+        };
+      }
+      return {
+        global_name: user.global_name ? user.global_name : user.name,
+        count: item.count,
+        avatar_url: user.avatar_url, // Add a default avatar URL if not found
+        id: item.author_id,
+      };
+    })
+    .filter((item) => item.id !== "1078085711242215424");
+
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const [itemsPerPage] = useState(10);
+
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+
+  const currentItems = Object.entries(users_with_counts)
+    .sort(([, countA], [, countB]) => countB - countA)
+    .slice(indexOfFirstItem, indexOfLastItem);
+
+  const totalItems = users_with_counts.length;
+  return (
+    <div>
+      {currentItems.map((item, index) => (
+        <React.Fragment key={index}>
+          <div className="flex items-center gap-2 p-4 bg-white/5 rounded-lg transform hover:scale-105 transition-all duration-300 mb-4">
+            <div className="w-10 h-10 rounded-full overflow-hidden">
+              <img
+                src={item[1].avatar_url}
+                alt={item[1].global_name}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="flex-1">
+              <h3 className="font-semibold text-lg">{item[1].global_name}</h3>
+            </div>
+            <div
+              className="text-2xl font-bold text-purple-300 flex justify-center"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                textAlign: "center",
+              }}
+            >
+              <div>{item[1].count}</div>
+              <div
+                style={{
+                  fontSize: "16px",
+                }}
+              >
+                wins
+              </div>
+            </div>
+          </div>
+        </React.Fragment>
+      ))}
+      <div className="flex justify-center mt-8">
+        <button
+          onClick={() => {
+            if (currentPage > 1) setCurrentPage(currentPage - 1);
+          }}
+          className=" p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+          style={{ height: "fit-content" }}
+        >
+          <ChevronLeft />
+        </button>
+        <div className="">
+          {[...Array(Math.ceil(totalItems / itemsPerPage)).keys()].map(
+            (pageNumber) => (
+              <button
+                key={pageNumber + 1}
+                onClick={() => setCurrentPage(pageNumber + 1)}
+                className={`${
+                  currentPage === pageNumber + 1
+                    ? "bg-white/10"
+                    : "bg-transparent"
+                } p-2 rounded-full hover:bg-white/20 transition-all`}
+              >
+                {pageNumber + 1}
+              </button>
+            )
+          )}
+        </div>
+        <button
+          onClick={() => setCurrentPage(currentPage + 1)}
+          className=" p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+          style={{ height: "fit-content" }}
+        >
+          <ChevronRight />
+        </button>
+      </div>
+    </div>
+  );
+}
+
 const App = () => {
-  const [currentData, setCurrentData] = useState(data_2024);
+  const [currentData, setCurrentData] = useState(
+    require("./output/output_2024.json")
+  );
   const [currentSection, setCurrentSection] = useState(0);
   const [currentYear, setCurrentYear] = useState(2024); // Set currentYear to 2024 on load
   const users = getUsers();
   const emojis = getEmojis();
+  const channels = getChannels();
   const sections = [
     {
-      title: "It takes a village...",
+      title: "It Takes a Village...",
       index: 0,
       data: currentData,
     },
@@ -746,33 +1219,48 @@ const App = () => {
       data: currentData,
     },
     {
-      title: "Gross abuse of character limit",
+      title: "Most Poppin' Channels",
       index: 2,
       data: currentData,
     },
     {
-      title: "Jlommitment to the jlit",
+      title: "Secret Word Guessers",
       index: 3,
       data: currentData,
     },
     {
-      title: "Shoutout Gang",
+      title: "Secret Word Winners",
       index: 4,
       data: currentData,
     },
     {
-      title: "Emoji me the fuck up.",
+      title: "Trendsetters.",
       index: 5,
       data: currentData,
     },
     {
-      title: "You're overreacting!",
+      title: "You're Overreacting!",
       index: 6,
       data: currentData,
     },
     {
-      title: "Most Poppin' channels",
+      title: "Emoji Me The Fuck Up.",
       index: 7,
+      data: currentData,
+    },
+    {
+      title: "Gross Abuse of Character Limit",
+      index: 8,
+      data: currentData,
+    },
+    {
+      title: "Jlommitment to the Jlit",
+      index: 9,
+      data: currentData,
+    },
+    {
+      title: "Shoutout Gang",
+      index: 10,
       data: currentData,
     },
   ];
@@ -792,63 +1280,89 @@ const App = () => {
   const years = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, "all"];
 
   return (
-    <div>
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900 text-white">
-        <div className="container mx-auto px-4 py-8">
-          <h1 className="text-5xl font-bold text-center mb-12">
-            Gang Wrapped {currentYear === "all" ? "All-Time" : currentYear}
-          </h1>
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900 text-white">
+      <div className="container mx-auto px-4 py-8">
+        <h1 className="text-5xl font-bold text-center mb-12">
+          Gang Wrapped {currentYear === "all" ? "All-Time" : currentYear}
+        </h1>
 
-          <div className="relative max-w-2xl mx-auto">
-            <button
-              onClick={prevSection}
-              className="absolute left-0 top-snap -translate-y-1/2 -translate-x-16 p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
-              style={{ top: "60px" }}
+        <div className="relative max-w-2xl mx-auto">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl transition-all duration-500">
+            <div
+              className="flex gap-x-4"
+              style={{ justifyContent: "space-between" }}
             >
-              <ChevronLeft size={24} />
-            </button>
-
-            <button
-              onClick={nextSection}
-              className="absolute right-0 -translate-y-1/2 translate-x-16 p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
-              style={{ top: "60px" }}
-            >
-              <ChevronRight size={24} />
-            </button>
-
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl transition-all duration-500">
-              <div className="space-y-6">
-                <SectionComponent
-                  title={sections[currentSection].title}
-                  index={sections[currentSection].index}
-                  year={currentYear}
-                  data={sections[currentSection].data}
-                  users={users}
-                  emojis={emojis}
-                />
-              </div>
+              <button
+                onClick={prevSection}
+                className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+              >
+                <ChevronLeft size={24} />
+              </button>
+              {sections.map((section, index) => (
+                <div key={index}>
+                  {index === currentSection ? (
+                    <div
+                      className="bg-white/40 bg-opacity-50 w-full h-2 rounded-lg"
+                      style={{
+                        height: "4px",
+                        width: "20px",
+                        marginTop: "20px",
+                      }}
+                    ></div>
+                  ) : (
+                    <div
+                      className="bg-white/10 bg-opacity-50 w-full h-2 rounded-lg"
+                      style={{
+                        height: "4px",
+                        width: "20px",
+                        marginTop: "20px",
+                      }}
+                    ></div>
+                  )}
+                </div>
+              ))}
+              <button
+                onClick={nextSection}
+                className=" p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+              >
+                <ChevronRight size={24} />
+              </button>
+            </div>
+            <div className="space-y-6" style={{ marginTop: "20px" }}>
+              <SectionComponent
+                title={sections[currentSection].title}
+                index={sections[currentSection].index}
+                year={currentYear}
+                data={sections[currentSection].data}
+                users={users}
+                emojis={emojis}
+                channels={channels}
+              />
             </div>
           </div>
         </div>
-        <div className="container mx-auto px-4 py-8">
-          <div className="relative max-w-2xl mx-auto">
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl transition-all duration-500">
-              <div className="flex justify-center gap-x-4">
-                {years.map((year, index) => (
-                  <div
-                    className={`text-lg font-bold ${
-                      currentYear === year ? "underline" : ""
-                    } transition-all duration-300 cursor-pointer`}
-                    onClick={() => {
-                      setCurrentYear(year);
-                      yearSelector(year);
-                    }}
-                    key={index}
-                  >
-                    {year === "all" ? "All-Time" : year}
-                  </div>
-                ))}
-              </div>
+      </div>
+      <div className="container mx-auto px-4 py-8">
+        <div className="relative max-w-2xl mx-auto">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl transition-all duration-500">
+            <div
+              className="flex justify-center gap-x-4"
+              style={{ flexWrap: "wrap" }}
+            >
+              {years.map((year, index) => (
+                <div
+                  className={`text-lg font-bold ${
+                    currentYear === year ? "underline" : ""
+                  } transition-all duration-300 cursor-pointer`}
+                  onClick={() => {
+                    setCurrentYear(year);
+                    yearSelector(year);
+                  }}
+                  key={index}
+                >
+                  {year === "all" ? "All-Time" : year}
+                </div>
+              ))}
             </div>
           </div>
         </div>
